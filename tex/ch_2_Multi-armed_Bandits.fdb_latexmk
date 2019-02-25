@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "ch_2_Multi-armed_Bandits.xdv" "ch_2_Multi-armed_Bandits.pdf" "ch_2_Multi-armed_Bandits" 0
+  "ch_2_Multi-armed_Bandits.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "ch_2_Multi-armed_Bandits.pdf"
+["xelatex"] 1546604403 "ch_2_Multi-armed_Bandits.tex" "ch_2_Multi-armed_Bandits.xdv" "ch_2_Multi-armed_Bandits" 1546604404
+  "/usr/local/texlive/2018/texmf-dist/web2c/texmf.cnf" 1522066949 33362 cf75436e19743e94a92a6b1b9183c434 ""
+  "/usr/local/texlive/2018/texmf-var/web2c/xetex/xelatex.fmt" 1530107452 3734670 0a66e675b766eb5bd1e37340332ab9a3 ""
+  "/usr/local/texlive/2018/texmf.cnf" 1530107402 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
+  "ch_2_Multi-armed_Bandits.aux" 1546602071 1683 fa1518c7c552edefc6db1cbc5b6cd52a ""
+  "ch_2_Multi-armed_Bandits.tex" 1546604403 1464 be695eef3af0f184674249d1a019c30b ""
+  (generated)
+  "ch_2_Multi-armed_Bandits.xdv"
+  "ch_2_Multi-armed_Bandits.log"

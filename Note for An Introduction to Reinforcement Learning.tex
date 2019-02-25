@@ -1,0 +1,70 @@
+%----------------------------------------------------------------------------------------
+%   PACKAGES AND DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{book}
+
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+\usepackage{amsfonts}
+\usepackage{bbm}
+\usepackage{enumerate}
+\usepackage{algorithm}
+% \usepackage{algorithmic}
+\usepackage{algpseudocode}
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+% \renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+\usepackage{geometry}
+\geometry{a4paper,scale=0.8}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\usepackage{times} % Uncomment to use the Times New Roman font
+% \usepackage{ctex}
+% \usepackage{hyperref}
+\usepackage[inline]{enumitem}
+\usepackage{listings}
+\usepackage[bookmarks]{hyperref}
+% \usepackage{mathptmx}
+\usepackage[OT1]{fontenc}  % https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016
+% \renewcommand\thechapter{\arabic{chapter}}
+% \renewcommand\thesection{\arabic{section}}
+% \renewcommand\thesubsection{(\arabic{subsection})}
+
+%----------------------------------------------------------------------------------------
+%   DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Notes for Reinforcement Learning} % Title
+
+\author{Mhttx} % Author name
+
+\date{\today} % Date for the report
+
+\begin{document} 
+\maketitle % Insert the title, author and date
+% \pdfbookmark[0]{\contentsname}{toc}%
+\tableofcontents
+\include{tex/ch_1_intro}
+
+\part{Tabular Solution Methods}
+\include{tex/ch_2_Multi-armed_Bandits}
+\include{tex/ch_3_Finite_Markov_Decision_Processes}
+\include{tex/ch_4_Dynamic_Programming}
+\include{tex/ch_5_Monte_Carlo_Methods}
+\part{Approximate Solution Methods}
+
+
+%----------------------------------------------------------------------------------------
+%   BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{unsrt}
+
+\bibliography{bib/reference}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
